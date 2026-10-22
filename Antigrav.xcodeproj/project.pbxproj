@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CC3AE3BBC467685EFF364C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3C5190C19273608D8F251 /* SceneDelegate.swift */; };
+		0E601B601E581205B19693D0 /* BrantixTrainBay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871F741AF4E1A67FFBC3096 /* BrantixTrainBay.swift */; };
+		114DCA26B41063F9538955B9 /* QelvChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF93DDB08CDF6376DDF771E /* QelvChrome.swift */; };
+		315D4BC0518B8496BD8FB976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B75E979A9A6EA95FD796C4 /* Main.storyboard */; };
+		3358B3FD9230498B4E3361A2 /* QelvCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E556A68D1482129AFAF64D /* QelvCatalog.swift */; };
+		40C36958CFA552B7085DFA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E713EF33053107B4F033F2C /* AppDelegate.swift */; };
+		602D79C97CBC6BC3CFE9F50E /* NyrelProfileNook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240AF33E7B9F9B6B6ACC94F /* NyrelProfileNook.swift */; };
+		67E0FBAB4F9D7B75AA398D63 /* SeluneSkillMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EB9DA422BA18655AA640 /* SeluneSkillMap.swift */; };
+		9B563DF3D672FDC06E3650A1 /* QelvOrbitVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DBD867087E820F81888D9D /* QelvOrbitVault.swift */; };
+		9F035F07AB1A315273D00536 /* qelv_book.json in Resources */ = {isa = PBXBuildFile; fileRef = 01527963F016C3FB06D0632E /* qelv_book.json */; };
+		D14DD67F334D90264E22D347 /* QelvLinkEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624046AFE3DB58DB3D6E1E99 /* QelvLinkEnum.swift */; };
+		D40F6BC3E7A51C94F3DD44B5 /* MarnixPellucid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E5AB2D6F40B83E2CC33A4 /* MarnixPellucid.swift */; };
+		D86BA5A5715833ED16225DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493417B6B84FD932088F7BA0 /* ContentView.swift */; };
+		E61C0C136AD6D5E729F6C656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51AB7B4E8895A8CD2BF270D /* Assets.xcassets */; };
+		EA95D7D1D342E8F80C403782 /* OrryxTodayDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A381070575E2460A4FE50 /* OrryxTodayDeck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01527963F016C3FB06D0632E /* qelv_book.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = qelv_book.json; sourceTree = "<group>"; };
+		0714E87A6D6DE650D3D21675 /* Pods-Antigrav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antigrav.release.xcconfig"; path = "Target Support Files/Pods-Antigrav/Pods-Antigrav.release.xcconfig"; sourceTree = "<group>"; };
+		0F3A381070575E2460A4FE50 /* OrryxTodayDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrryxTodayDeck.swift; sourceTree = "<group>"; };
+		1CF93DDB08CDF6376DDF771E /* QelvChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QelvChrome.swift; sourceTree = "<group>"; };
+		32126F04F835ED0B8E695A9A /* Antigrav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antigrav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3871F741AF4E1A67FFBC3096 /* BrantixTrainBay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrantixTrainBay.swift; sourceTree = "<group>"; };
+		493417B6B84FD932088F7BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BC3C5190C19273608D8F251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		624046AFE3DB58DB3D6E1E99 /* QelvLinkEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QelvLinkEnum.swift; sourceTree = "<group>"; };
+		7240AF33E7B9F9B6B6ACC94F /* NyrelProfileNook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyrelProfileNook.swift; sourceTree = "<group>"; };
+		77C995AB3AD3951E196EB9FD /* Pods_Antigrav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Antigrav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E713EF33053107B4F033F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B75E979A9A6EA95FD796C4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A0E556A68D1482129AFAF64D /* QelvCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QelvCatalog.swift; sourceTree = "<group>"; };
+		B0F1EB9DA422BA18655AA640 /* SeluneSkillMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeluneSkillMap.swift; sourceTree = "<group>"; };
+		C39E5AB2D6F40B83E2CC33A4 /* MarnixPellucid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarnixPellucid.swift; sourceTree = "<group>"; };
+		C51AB7B4E8895A8CD2BF270D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DBD867087E820F81888D9D /* QelvOrbitVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QelvOrbitVault.swift; sourceTree = "<group>"; };
+		FF64638926A3B02DACD7FC59 /* Pods-Antigrav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antigrav.debug.xcconfig"; path = "Target Support Files/Pods-Antigrav/Pods-Antigrav.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0BFAED7A9D5F828CA10759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFB09BCED1BD77E49959D81 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1CF93DDB08CDF6376DDF771E /* QelvChrome.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		0F4DEEC0DABB21E23C8A3AE0 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				84B75E979A9A6EA95FD796C4 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		1850281456C74151D1FCD1A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				624046AFE3DB58DB3D6E1E99 /* QelvLinkEnum.swift */,
+				E8DBD867087E820F81888D9D /* QelvOrbitVault.swift */,
+				C39E5AB2D6F40B83E2CC33A4 /* MarnixPellucid.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		19016DBE36F9004895CDEC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32126F04F835ED0B8E695A9A /* Antigrav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5FE99F78DFD761B52F64FA /* Antigrav */ = {
+			isa = PBXGroup;
+			children = (
+				C51AB7B4E8895A8CD2BF270D /* Assets.xcassets */,
+				8B270142984CE7FD1D915EBA /* App */,
+				0F4DEEC0DABB21E23C8A3AE0 /* Base.lproj */,
+				3160AEE59F02AA59784FA88F /* Code */,
+			);
+			path = Antigrav;
+			sourceTree = "<group>";
+		};
+		1ADBD97918BFD4C3D4288A6A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7240AF33E7B9F9B6B6ACC94F /* NyrelProfileNook.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3160AEE59F02AA59784FA88F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				493417B6B84FD932088F7BA0 /* ContentView.swift */,
+				548A1566DB1A2014C3528D48 /* Content */,
+				0CFB09BCED1BD77E49959D81 /* DesignSystem */,
+				72421AB84A908BD32FDDFEC9 /* Features */,
+				1850281456C74151D1FCD1A7 /* Services */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		548A1566DB1A2014C3528D48 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0E556A68D1482129AFAF64D /* QelvCatalog.swift */,
+				01527963F016C3FB06D0632E /* qelv_book.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		639F9020CE81347C325709C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C995AB3AD3951E196EB9FD /* Pods_Antigrav.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72421AB84A908BD32FDDFEC9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBD97918BFD4C3D4288A6A /* Profile */,
+				AC129CB6BDF5892A6B872C79 /* Skills */,
+				75EC9E825FC59C69F034FB4A /* Today */,
+				F94D27D64B511A9D349BC547 /* Train */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		75EC9E825FC59C69F034FB4A /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A381070575E2460A4FE50 /* OrryxTodayDeck.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		8B270142984CE7FD1D915EBA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E713EF33053107B4F033F2C /* AppDelegate.swift */,
+				5BC3C5190C19273608D8F251 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AC129CB6BDF5892A6B872C79 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				B0F1EB9DA422BA18655AA640 /* SeluneSkillMap.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		B1D8920B3712E15490C67471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF64638926A3B02DACD7FC59 /* Pods-Antigrav.debug.xcconfig */,
+				0714E87A6D6DE650D3D21675 /* Pods-Antigrav.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5B1D6DA349319FC2F38D8A5 = {
+			isa = PBXGroup;
+			children = (
+				1A5FE99F78DFD761B52F64FA /* Antigrav */,
+				19016DBE36F9004895CDEC4A /* Products */,
+				B1D8920B3712E15490C67471 /* Pods */,
+				639F9020CE81347C325709C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F94D27D64B511A9D349BC547 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				3871F741AF4E1A67FFBC3096 /* BrantixTrainBay.swift */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0033CD6D36575CFAE9E928 /* Antigrav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5D40388020E7389387799F /* Build configuration list for PBXNativeTarget "Antigrav" */;
+			buildPhases = (
+				62E62465A0EAD4E6C08F5C7F /* [CP] Check Pods Manifest.lock */,
+				030684ED8AB32F9027C1A758 /* Sources */,
+				DC0BFAED7A9D5F828CA10759 /* Frameworks */,
+				055845E2142E9DBB3BB55638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antigrav;
+			productName = Antigrav;
+			productReference = 32126F04F835ED0B8E695A9A /* Antigrav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECC547F03F6720EF268E5B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 1B7BFDD700A1681420DE5F4B /* Build configuration list for PBXProject "Antigrav" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B1D6DA349319FC2F38D8A5;
+			productRefGroup = 19016DBE36F9004895CDEC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0033CD6D36575CFAE9E928 /* Antigrav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055845E2142E9DBB3BB55638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61C0C136AD6D5E729F6C656 /* Assets.xcassets in Resources */,
+				315D4BC0518B8496BD8FB976 /* Main.storyboard in Resources */,
+				9F035F07AB1A315273D00536 /* qelv_book.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62E62465A0EAD4E6C08F5C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antigrav-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030684ED8AB32F9027C1A758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C36958CFA552B7085DFA14 /* AppDelegate.swift in Sources */,
+				08CC3AE3BBC467685EFF364C /* SceneDelegate.swift in Sources */,
+				3358B3FD9230498B4E3361A2 /* QelvCatalog.swift in Sources */,
+				D86BA5A5715833ED16225DAC /* ContentView.swift in Sources */,
+				114DCA26B41063F9538955B9 /* QelvChrome.swift in Sources */,
+				602D79C97CBC6BC3CFE9F50E /* NyrelProfileNook.swift in Sources */,
+				67E0FBAB4F9D7B75AA398D63 /* SeluneSkillMap.swift in Sources */,
+				EA95D7D1D342E8F80C403782 /* OrryxTodayDeck.swift in Sources */,
+				0E601B601E581205B19693D0 /* BrantixTrainBay.swift in Sources */,
+				D14DD67F334D90264E22D347 /* QelvLinkEnum.swift in Sources */,
+				D40F6BC3E7A51C94F3DD44B5 /* MarnixPellucid.swift in Sources */,
+				9B563DF3D672FDC06E3650A1 /* QelvOrbitVault.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83582FB3AE51A01CBED9B294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CAAEC738F650CB5B72752E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0714E87A6D6DE650D3D21675 /* Pods-Antigrav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Antigrav/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hero Body - Calis Path";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmv.h3rb0dc4lp7t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B70F353F80E6D042A8ED49A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD67AFFF1DBC83AA990A502C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF64638926A3B02DACD7FC59 /* Pods-Antigrav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Antigrav/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hero Body - Calis Path";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmv.h3rb0dc4lp7t;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7BFDD700A1681420DE5F4B /* Build configuration list for PBXProject "Antigrav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83582FB3AE51A01CBED9B294 /* Debug */,
+				B70F353F80E6D042A8ED49A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5D40388020E7389387799F /* Build configuration list for PBXNativeTarget "Antigrav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD67AFFF1DBC83AA990A502C /* Debug */,
+				8CAAEC738F650CB5B72752E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECC547F03F6720EF268E5B9 /* Project object */;
+}
